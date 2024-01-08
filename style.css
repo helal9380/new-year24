@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Merriweather, serif;
+}
+
+.main-container {
+    max-width: 1140px;
+    margin: 60px auto;
+}
+
+.container {
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./resources/Banner Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    text-align: center;
+}
+
+.content-box h4 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-box h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.off-content {
+    text-align: center;
+}
+
+.off-content h2 {
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(255, 0, 0);
+    margin-bottom: 48px;
+}
+
+.off-content p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: normal;
+}
+
+.off-content h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off-image {
+    margin-top: 48px;
+}
+
+.welcome-container {
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.welcome-content {
+    color: rgb(255, 255, 255);
+}
+
+.welcome-content > h2 {
+    width: 642px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.welcome-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.join-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.box-container {
+    gap: 16px;
+    padding: 70px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-park-hotel {
+    border-radius: 8px;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+}
+
+.new-park-hotel p {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.new-park-hotel button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.text-red {
+    color: rgb(255, 0, 0);
+}
+
+.coming-soon-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-site {
+    width: 29%;
+}
+
+.right-site {
+    width: 26%;
+}
+
+.new-best {
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+
+.left-site h3 {
+    margin: 8px 0px;
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+}
+
+.new-parah {
+    margin: 8px 0px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.middle-site {
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.img-box {
+    padding: 20px;
+}
+
+.right-site img {
+    margin-top: 12px;
+}
+
+.right-site h3 {
+    margin-top: 45px;
+    font-size: 48px;
+    color: rgb(255, 0, 0);
+}
+
+.holy-days-content {
+    text-align: center;
+}
+
+span.holy-day {
+    color: rgb(255, 0, 0);
+}
+
+.holy-days-content h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holy-days-content h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.holy-days-content p {
+    width: 800px;
+    margin: 20px auto 0px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.holy-days-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.holy-box {
+    z-index: 1;
+    margin-top: 132px;
+    width: 55%;
+}
+
+.holy-box img {
+    width: 100%;
+}
+
+.shop {
+    position: relative;
+    width: 40%;
+}
+
+.shop img {
+    width: 100%;
+}
+
+.discount {
+    width: 20%;
+    position: relative;
+    top: 50%;
+    right: -7%;
+    z-index: 1;
+}
+
+.red-box {
+    bottom: 108px;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+/* portfolio section */
+.portfolio-section {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.portfolio-content h4{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.portfolio-content p {
+    color: rgba(7, 2, 17, 0.60);
+    margin-bottom: 48px;
+}
+
+.portfolio {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+.portfolio img {
+    height: 300px;
+    width: 360px;
+    transition: transform 1s;
+}
+
+.portfolio img:hover {
+    transform: rotateZ(90deg);
+}
