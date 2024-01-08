@@ -279,13 +279,13 @@ span.holy-day {
     border-radius: 10px;
 }
 
-/* portfolio section */
 .portfolio-section {
     margin-top: 0px;
     padding-top: 0px;
 }
-.portfolio-content h4{
-    color: #f00;
+
+.portfolio-content h4 {
+    color: rgb(255, 0, 0);
     font-size: 24px;
     font-weight: 500;
 }
@@ -296,24 +296,126 @@ span.holy-day {
 }
 
 .portfolio-content p {
-    color: rgba(7, 2, 17, 0.60);
+    color: rgba(7, 2, 17, 0.6);
     margin-bottom: 48px;
 }
 
 .portfolio {
-    height: 70vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
 }
 
 .portfolio img {
     height: 300px;
     width: 360px;
-    transition: transform 1s;
+    transition: transform 1s ease 0s;
 }
 
 .portfolio img:hover {
-    transform: rotateZ(90deg);
+}
+
+.subscribe-section {
+    margin-top: 80px;
+}
+
+.subscribe-section {
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-content {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.subscribe-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(7, 2, 17);
+}
+
+.subscribe-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.subscribe-btn {
+    margin-left: -5px;
+    border: none;
+    padding: 14px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.subscriber-box input {
+    padding: 20px;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.subscriber-box input {
+    padding: 17px;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.subscriber-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    background-color: rgb(7, 2, 17);
+}
+
+.footer-content {
+    margin: auto;
+    width: 1140px;
+    color: rgb(255, 255, 255);
+    /* padding: 58px 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 71px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.copy-right {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 80px;
+    margin: auto;
 }
