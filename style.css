@@ -378,17 +378,29 @@ span.holy-day {
 .footer-container {
     background-color: rgb(7, 2, 17);
 }
+hr {
+    border: none;
+    margin: 60px auto;
+    width: 1140px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
 
+}
 .footer-content {
     margin: auto;
     width: 1140px;
-    color: rgb(255, 255, 255);
+    color: rgb(163, 163, 163);
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.footer-content p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
 .phone {
     margin-bottom: 8px;
     display: flex;
@@ -409,7 +421,7 @@ span.holy-day {
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    padding: 71px;
+    padding: 0px 70px 0px 70px;
 }
 
 .social-icons img {
@@ -430,7 +442,7 @@ span.holy-day {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(133, 133, 133);
     padding-bottom: 80px;
     margin: auto;
 }
